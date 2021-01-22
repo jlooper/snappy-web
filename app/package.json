@@ -11,12 +11,13 @@
 	"author": "jlooper",
 	"license": "MIT",
 	"dependencies": {
+		"@microsoft/immersive-reader-sdk": "^1.1.0",
 		"@tailwindcss/postcss7-compat": "^2.0.2",
 		"autoprefixer": "^9.8.6",
+		"mitt": "2.1.0",
 		"postcss": "^7.0.35",
 		"tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
-		"vuepress": "^1.8.0",
-		"mitt": "2.1.0"
+		"vuepress": "^1.8.0"
 	},
 	"repository": {
 		"type": "git",

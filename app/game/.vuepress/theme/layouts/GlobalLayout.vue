@@ -41,6 +41,7 @@ export default {
       hidden: "lg:inline-block md:hidden sm:hidden hidden w-1/2",
     };
   },
+
   computed: {
     layout() {
       return this.$page.frontmatter.layout || "BasicLayout";
