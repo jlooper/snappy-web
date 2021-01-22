@@ -8,21 +8,22 @@
 		"dev": "vuepress dev game"
 	},
 	"keywords": [],
-	"author": "softchris,jlooper",
+	"author": "jlooper",
 	"license": "MIT",
 	"dependencies": {
 		"@tailwindcss/postcss7-compat": "^2.0.2",
 		"autoprefixer": "^9.8.6",
 		"postcss": "^7.0.35",
 		"tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
-		"vuepress": "^1.8.0"
+		"vuepress": "^1.8.0",
+		"mitt": "2.1.0"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/jlooper/static-game-engine"
+		"url": "git+https://github.com/jlooper/snappy-web"
 	},
 	"bugs": {
-		"url": "https://github.com/jlooper/static-game-engine"
+		"url": "https://github.com/jlooper/snappy-web"
 	},
-	"homepage": "https://github.com/jlooper/static-game-engine"
+	"homepage": "https://github.com/jlooper/snappy-web"
 }

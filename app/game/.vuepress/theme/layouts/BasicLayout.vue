@@ -1,7 +1,7 @@
 <template>
   <div class="markdown-body">
    
-    <p class="text-3xl pb-5 pt-5 ml-5 text-sans">{{ $page.frontmatter.title }}</p>
+    <p class="text-4xl text-white font-bold pt-5 ml-5 text-sans">{{ $page.frontmatter.title }}</p>
     <div class="p-5 bg-white m-5 rounded">
       <Content />
     </div>

@@ -24,12 +24,17 @@
 </template>
 <script>
 import Nav from "@theme/components/Nav.vue";
+import Footer from "@theme/components/Footer.vue";
+
 import BasicLayout from "@theme/layouts/BasicLayout.vue";
+import HomeLayout from "@theme/layouts/HomeLayout.vue";
 
 export default {
   components: {
     Nav,
     BasicLayout,
+    HomeLayout,
+    Footer,
   },
   data() {
     return {

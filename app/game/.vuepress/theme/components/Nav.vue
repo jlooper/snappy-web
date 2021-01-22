@@ -3,7 +3,12 @@
     class="nav rounded-t flex items-center justify-between flex-wrap text-right pr-0 lg:pr-5 md:pr-3 sm:pr-0 border-b"
   >
     <span class="lg:w-1/3 md:w-full sm:w-full w-full">
-      <!---a good place for a logo--->
+      <Img
+        src="/images/snappy.png"
+        width="150"
+        class="p-5"
+        alt="Snappy Squirrel"
+      />
     </span>
 
     <span class="lg:w-2/3 md:w-full sm:w-full w-full">
@@ -32,9 +37,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.markdown-body a {
-  text-decoration: none;
-}
-</style>
