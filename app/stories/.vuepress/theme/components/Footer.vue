@@ -1,7 +1,7 @@
 <template>
   <footer class="rounded-b-lg text-white sticky pin-bottom p-6">
     <div
-      class="w-full lg:text-xl block flex-grow flex justify-center items-center"
+      class="w-full lg:text-2xl block flex-grow flex justify-center items-center"
     >
       &copy 2021-present Jen Looper
       <a class="m-2 no-underline" href="http://github.com/jlooper">

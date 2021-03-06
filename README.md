@@ -6,5 +6,5 @@ Welcome to Snappy Squirrel e-books, teaching personal finance to kids. These boo
 
 ## Architecture
 
-This site is a hybrid of a Vue.js Single Page Web App and a VuePress static site. Most written content is written using VuePress's markdown architecture, and the game elements are build as standard Vue.js app elements. The game is contained in the [`app`](./app) folder. 
+This site is a VuePress static site styled with Tailwind using a custom theme. Most written content is written using VuePress's markdown architecture, and any extra story elements are build as standard Vue.js app elements. The stories are contained in the [`app`](./app) folder. 
 

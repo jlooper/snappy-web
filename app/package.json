@@ -4,14 +4,13 @@
 	"description": "Explore and Learn!",
 	"main": "tailwind.config.js",
 	"scripts": {
-		"build": "vuepress build game",
-		"dev": "vuepress dev game"
+		"build": "vuepress build stories",
+		"dev": "vuepress dev stories"
 	},
 	"keywords": [],
 	"author": "jlooper",
 	"license": "MIT",
 	"dependencies": {
-		"@microsoft/immersive-reader-sdk": "^1.1.0",
 		"@tailwindcss/postcss7-compat": "^2.0.2",
 		"autoprefixer": "^9.8.6",
 		"mitt": "2.1.0",
