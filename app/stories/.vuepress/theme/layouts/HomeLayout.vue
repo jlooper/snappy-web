@@ -91,7 +91,7 @@
                   <p
                   class="inline-block text-4xl lg:text-3xl md:text-2xl sm:text-lg p-2 align-top"
                 >
-                    How does Snappy manage a risky investment?
+                    A risky investment!
                   </p>
                 </div>
               </div>

@@ -11,7 +11,7 @@
           togglePopover(item);
         "
       >
-        <Img class="m-2 p-2" src="/images/ladybug.png" alt="ladybug helper" />
+        <p class="text-5xl m-2 p-2">🐞</p>
       </span>
       <div
         class="m-2 p-2 speech-bubble"
