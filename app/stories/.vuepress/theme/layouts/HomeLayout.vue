@@ -1,10 +1,11 @@
 <template>
   <div class="markdown-body text-center">
+    <h1 class="text-white text-3xl xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl font-bold">Learn About Personal Finance: E-Books for Kids and Parents</h1>
     <div class="p-5 bg-orange-800">
       <div class="px-2 mt-0 lg:mt-2 md:mt-0 sm:mt-0">
         <div class="flex flex-wrap -mx-2">
           <div class="w-full lg:w-1/2 px-2">
-            <div class="bg-gray-100 card">
+            <div class="bg-gray-100 mb-2">
               <router-link
                 class="inline-block align-top cursor-pointer"
                 to="/book1/1"
@@ -24,8 +25,8 @@
               </router-link>
             </div>
           </div>
-          <div class="w-full lg:w-1/2 px-2">
-            <div class=" bg-gray-100 card">
+          <div class="w-full lg:w-1/2 px-2 ">
+            <div class=" bg-gray-100  mb-2">
               <div
                 class="inline-block align-top cursor-pointer"
                 
@@ -51,7 +52,7 @@
       <div class="px-2 mt-0 lg:mt-2 md:mt-0 sm:mt-0">
         <div class="flex flex-wrap -mx-2">
           <div class="w-full lg:w-1/2 px-2">
-            <div class=" bg-gray-100 card">
+            <div class=" bg-gray-100  mb-2">
               <div
                 class="cursor-pointer"
                 
@@ -75,7 +76,7 @@
             </div>
           </div>
           <div class="w-full lg:w-1/2 px-2">
-            <div class=" bg-gray-100">
+            <div class=" bg-gray-100 mb-2">
               <div
                 class="cursor-pointer"
                 
@@ -104,7 +105,7 @@
       <div class="px-2 mt-0 lg:mt-2 md:mt-0 sm:mt-0">
         <div class="flex flex-wrap -mx-2">
           <div class="w-full lg:w-1/2 px-2">
-            <div class="bg-gray-100 card">
+            <div class="bg-gray-100  mb-2">
               <div
                 class="cursor-pointer"
                 
@@ -128,7 +129,7 @@
             </div>
           </div>
           <div class="w-full lg:w-1/2 px-2">
-            <div class="bg-gray-100 card">
+            <div class="bg-gray-100  mb-2">
               <div
                 class="cursor-pointer"
                 

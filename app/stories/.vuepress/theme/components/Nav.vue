@@ -14,7 +14,7 @@
 
     <span class="lg:w-2/3 md:w-full sm:w-full w-full">
       <span
-        class="title cursor-pointer block m-1 lg:m-4 md:m-2 sm:m-1"
+        class="title text-3xl xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl cursor-pointer block m-1 lg:m-4 md:m-2 sm:m-1"
         @click="goHome()"
         >Snappy Squirrel E-Books</span
       >
