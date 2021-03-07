@@ -28,10 +28,10 @@
             <div class=" bg-gray-100 card">
               <div
                 class="inline-block align-top cursor-pointer"
-                @click="goToSite('https://practicebuddyapp.com')"
+                
               >
                 <p
-                  class="text-5xl lg:text-4xl md:text-2xl sm:text-xl p-2 text-center font-bold underline"
+                  class="text-5xl lg:text-4xl md:text-2xl sm:text-xl p-2 text-center font-bold"
                 >
                   Snappy Needs a Nest
                 </p>
@@ -54,11 +54,11 @@
             <div class=" bg-gray-100 card">
               <div
                 class="cursor-pointer"
-                @click="goToSite('https://yomamaisa.dev')"
+                
               >
                 <div class>
                   <p
-                  class="text-5xl lg:text-4xl md:text-2xl sm:text-xl p-2 text-center font-bold underline"
+                  class="text-5xl lg:text-4xl md:text-2xl sm:text-xl p-2 text-center font-bold "
                 >
                     Snappy Plays the Stock Market
                   </p>
@@ -78,15 +78,15 @@
             <div class=" bg-gray-100">
               <div
                 class="cursor-pointer"
-                @click="goToSite('https://www.quicknoms.com')"
+                
               >
                 <div class="inline-block align-top">
                   <p
-                  class="text-5xl lg:text-4xl md:text-2xl sm:text-xl p-2 text-center font-bold underline"
+                  class="text-5xl lg:text-4xl md:text-2xl sm:text-xl p-2 text-center font-bold "
                 >
                     Snappy Loses
                   </p>
-                    <img class="m-auto" src="/images/bk-5.png" alt="book 5"/>
+                    <img class="m-auto" src="/images/bk-4.png" alt="book 4"/>
 
                   <p
                   class="inline-block text-4xl lg:text-3xl md:text-2xl sm:text-lg p-2 align-top"
@@ -107,11 +107,11 @@
             <div class="bg-gray-100 card">
               <div
                 class="cursor-pointer"
-                @click="goToSite('https://www.snappysquirrel.com')"
+                
               >
                 <div class>
                   <p
-                  class="text-5xl lg:text-4xl md:text-2xl sm:text-xl p-2 text-center font-bold underline"
+                  class="text-5xl lg:text-4xl md:text-2xl sm:text-xl p-2 text-center font-bold "
                 >
                     Snappy Buys a Bond
                   </p>
@@ -131,11 +131,11 @@
             <div class="bg-gray-100 card">
               <div
                 class="cursor-pointer"
-                @click="goToSite('https://www.thinglearn.com')"
+                
               >
                 <div class="inline-block align-top">
                   <p
-                  class="text-5xl lg:text-4xl md:text-2xl sm:text-xl p-2 text-center font-bold underline"
+                  class="text-5xl lg:text-4xl md:text-2xl sm:text-xl p-2 text-center font-bold "
                 >
                     More Coming Soon!
                   </p>
