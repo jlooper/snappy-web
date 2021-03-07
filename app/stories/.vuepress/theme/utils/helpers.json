@@ -6,5 +6,37 @@
 	{
 		"id": 2,
 		"result": "Where do you store your valuable things? How do you make sure they are safe?"
+	},
+	{
+		"id": 3,
+		"result": "Whom do you ask about important money matters?"
+	},
+	{
+		"id": 4,
+		"result": "Have you ever been inside a bank? What are other ways to visit a bank?"
+	},
+	{
+		"id": 5,
+		"result": "What are the names of your local banks?"
+	},
+	{
+		"id": 6,
+		"result": "Are there banks in your town or city that seem to offer more to their customers, but really offer less?"
+	},
+	{
+		"id": 7,
+		"result": "What other kinds of business practices would a bank offer to attract customers?"
+	},
+	{
+		"id": 8,
+		"result": "When is your local bank open?"
+	},
+	{
+		"id": 9,
+		"result": "Do you own a bank account? Why or Why not? What are you goals?"
+	},
+	{
+		"id": 10,
+		"result": "Have you ever seen a bank's safe deposit box area? It's very interesting!"
 	}
 ]

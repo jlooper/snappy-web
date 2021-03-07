@@ -1,22 +1,25 @@
 <template>
-  <div class="flex flex-row">
-    <button
-      type="button"
-      class="m-5 p-4 bg-transparent font-semibold"
-      aria-expanded="true"
-      @click="
-        showResult = !showResult;
-        togglePopover(item);
-      "
-    >
-      <Img class="m-5 p-4" src="/images/ladybug.png" alt="ladybug helper" />
-    </button>
-    <div
-      class="m-5 p-4 speech-bubble"
-      ref="popoverRef"
-      v-bind:class="{ hidden: !popoverShow, block: popoverShow }"
-    >
-      <p class="font-bold" v-if="showResult">{{ getResult }}</p>
+  <div class="bg-yellow-100 mt-5">
+    <h2 class="text-4xl font-bold p-1">Click the ladybug!</h2>
+    <div class="flex flex-row">
+      <span
+        type="button"
+        class="m-2 p-2 bg-transparent font-semibold"
+        aria-expanded="true"
+        @click="
+          showResult = !showResult;
+          togglePopover(item);
+        "
+      >
+        <Img class="m-2 p-2" src="/images/ladybug.png" alt="ladybug helper" />
+      </span>
+      <div
+        class="m-2 p-2 speech-bubble"
+        ref="popoverRef"
+        v-bind:class="{ hidden: !popoverShow, block: popoverShow }"
+      >
+        <p class="font-bold" v-if="showResult">{{ getResult }}</p>
+      </div>
     </div>
   </div>
 </template>
