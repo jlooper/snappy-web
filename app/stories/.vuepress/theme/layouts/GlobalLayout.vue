@@ -60,7 +60,7 @@ export default {
 <style scoped>
 .backdrop {
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100vmax;
   background-position: bottom;
 }
 </style>

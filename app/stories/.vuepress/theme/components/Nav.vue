@@ -8,6 +8,7 @@
         width="150"
         class="p-5"
         alt="Snappy Squirrel"
+        @click="goHome()"
       />
     </span>
 

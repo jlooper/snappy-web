@@ -1,10 +1,10 @@
 <template>
   <div class="markdown-body text-center">
-    <div class="p-5 bg-green-900">
+    <div class="p-5 bg-orange-800">
       <div class="px-2 mt-0 lg:mt-2 md:mt-0 sm:mt-0">
         <div class="flex flex-wrap -mx-2">
           <div class="w-full lg:w-1/2 px-2">
-            <div class="h-56 lg:h-56 md:h-56 sm:h-auto bg-gray-100 card">
+            <div class="bg-gray-100 card">
               <router-link
                 class="inline-block align-top cursor-pointer"
                 to="/book1/1"
@@ -14,6 +14,7 @@
                 >
                   Snappy and the Nuts
                 </p>
+                <img class="m-auto" src="/images/bk-1.png" alt="book 1"/>
 
                 <p
                   class="inline-block text-4xl lg:text-3xl md:text-2xl sm:text-lg p-2 align-top"
@@ -24,7 +25,7 @@
             </div>
           </div>
           <div class="w-full lg:w-1/2 px-2">
-            <div class="h-56 lg:h-56 md:h-56 sm:h-auto bg-gray-100 card">
+            <div class=" bg-gray-100 card">
               <div
                 class="inline-block align-top cursor-pointer"
                 @click="goToSite('https://practicebuddyapp.com')"
@@ -34,7 +35,7 @@
                 >
                   Snappy Needs a Nest
                 </p>
-
+                  <img class="m-auto" src="/images/bk-2.png" alt="book 2"/>
                 <p
                   class="inline-block text-4xl lg:text-3xl md:text-2xl sm:text-lg p-2 align-top"
                 >
@@ -50,7 +51,7 @@
       <div class="px-2 mt-0 lg:mt-2 md:mt-0 sm:mt-0">
         <div class="flex flex-wrap -mx-2">
           <div class="w-full lg:w-1/2 px-2">
-            <div class="h-56 lg:h-56 md:h-56 sm:h-auto bg-gray-100 card">
+            <div class=" bg-gray-100 card">
               <div
                 class="cursor-pointer"
                 @click="goToSite('https://yomamaisa.dev')"
@@ -61,6 +62,9 @@
                 >
                     Snappy Plays the Stock Market
                   </p>
+                  
+                  <img class="m-auto" src="/images/bk-3.png" alt="book 3"/>
+
                   <p
                   class="inline-block text-4xl lg:text-3xl md:text-2xl sm:text-lg p-2 align-top"
                 >
@@ -71,7 +75,7 @@
             </div>
           </div>
           <div class="w-full lg:w-1/2 px-2">
-            <div class="h-56 lg:h-56 md:h-56 sm:h-auto bg-gray-100">
+            <div class=" bg-gray-100">
               <div
                 class="cursor-pointer"
                 @click="goToSite('https://www.quicknoms.com')"
@@ -82,10 +86,12 @@
                 >
                     Snappy Loses
                   </p>
+                    <img class="m-auto" src="/images/bk-5.png" alt="book 5"/>
+
                   <p
                   class="inline-block text-4xl lg:text-3xl md:text-2xl sm:text-lg p-2 align-top"
                 >
-                    Yea he do
+                    How does Snappy manage a risky investment?
                   </p>
                 </div>
               </div>
@@ -98,7 +104,7 @@
       <div class="px-2 mt-0 lg:mt-2 md:mt-0 sm:mt-0">
         <div class="flex flex-wrap -mx-2">
           <div class="w-full lg:w-1/2 px-2">
-            <div class="h-56 lg:h-56 md:h-56 sm:h-auto bg-gray-100 card">
+            <div class="bg-gray-100 card">
               <div
                 class="cursor-pointer"
                 @click="goToSite('https://www.snappysquirrel.com')"
@@ -109,17 +115,20 @@
                 >
                     Snappy Buys a Bond
                   </p>
+                  
+                  <img class="m-auto" src="/images/bk-5.png" alt="book 5"/>
+
                   <p
                   class="inline-block text-4xl lg:text-3xl md:text-2xl sm:text-lg p-2 align-top"
                 >
-                    to be safe
+                    A safer way to invest!
                   </p>
                 </div>
               </div>
             </div>
           </div>
           <div class="w-full lg:w-1/2 px-2">
-            <div class="h-56 lg:h-56 md:h-56 sm:h-auto bg-gray-100 card">
+            <div class="bg-gray-100 card">
               <div
                 class="cursor-pointer"
                 @click="goToSite('https://www.thinglearn.com')"
@@ -130,10 +139,14 @@
                 >
                     More Coming Soon!
                   </p>
+                
+                <img width="125" class="m-auto" src="/images/snappy.png" alt="Snappy"/>
+
                   <p
                   class="inline-block text-4xl lg:text-3xl md:text-2xl sm:text-lg p-2 align-top"
                 >
-                    stay tuned
+                    Stay tuned!
+          
                   </p>
                 </div>
               </div>
