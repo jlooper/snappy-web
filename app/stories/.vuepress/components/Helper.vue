@@ -2,17 +2,17 @@
   <div class="flex flex-row">
     <button
       type="button"
-      class="bg-transparent m-5 p-5 font-semibold hover:bg-yellow-200 border border-green-500 rounded"
+      class="m-5 p-4 bg-transparent font-semibold"
       aria-expanded="true"
       @click="
         showResult = !showResult;
         togglePopover(item);
       "
     >
-      <Img src="/images/ladybug.png" alt="ladybug helper" />
+      <Img class="m-5 p-4" src="/images/ladybug.png" alt="ladybug helper" />
     </button>
     <div
-      class="m-5 p-5 speech-bubble"
+      class="m-5 p-4 speech-bubble"
       ref="popoverRef"
       v-bind:class="{ hidden: !popoverShow, block: popoverShow }"
     >
@@ -68,8 +68,6 @@ export default {
   background: #ccc;
   position: relative;
   text-align: center;
-  padding: 20px;
-  margin: 20px 30px;
   border-radius: 10px;
 }
 .speech-bubble:after {
